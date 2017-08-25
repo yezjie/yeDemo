@@ -1,0 +1,9 @@
+<svg id="termo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 30">
+  <title>termo-icon</title>
+  <path d="M20,7a2.4,2.4,0,0,1,2.38,2.41v14l.74.6a5,5,0,1,1-6.23,0l.74-.6v-14A2.4,2.4,0,0,1,20,7m0-2a4.39,4.39,0,0,0-4.37,4.41v13a7,7,0,1,0,8.75,0v-13A4.39,4.39,0,0,0,20,5Z" transform="translate(-11 -5)"/>
+  <circle cx="9" cy="23" r="3.5"/>
+  <rect x="8" y="7.5" width="2" height="15" rx="1" ry="1"/>
+  <rect x="2" y="5" width="4" height="2" rx="1" ry="1"/>
+  <rect y="9" width="6" height="2" rx="1" ry="1"/>
+  <rect x="2" y="13" width="4" height="2" rx="1" ry="1"/>
+</svg>

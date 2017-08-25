@@ -1,0 +1,89 @@
+body{ font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+#header{ padding-top: 1em; }
+.navbar-brand > img{ height: 50px; margin-top: 10px; }
+.navbar .menu a{transition: all 0.5s; padding: 1em 1em .5em 1em; font-size:20px; color: #000 !important; font-family: SourceSansPro, sans-serif; font-weight: 300;  }
+.navbar .menu a span{ font-size: 15px;}
+.navbar .menu a img._hover{ display: none; }
+.navbar .menu a:hover{ text-decoration: underline; color: #808080 !important;  }
+.navbar .menu a.no-txt:hover{ text-decoration: none; }
+.navbar .menu a:hover img._hover{ display: inline-block; }
+.navbar .menu a:hover img.no-hover{ display: none; }
+.navbar-header button{ margin-top:30px; }
+.nav{ margin-top: 30px; }
+.nav li:last-child a{ padding-left: 0; }
+
+#banner-info h2{ margin-top: 96px; font-family: sans-serif; color: #404040; font-size: 53px; text-align: center; font-weight: 100; }
+#banner-info p{ margin-bottom: 40px; font-weight: 300; text-align: center; color: rgb(0, 136, 204); font-size: 22px;  }
+#banner-info p a{ text-decoration: none; color: rgb(0, 136, 204); font-size: 22px; }
+#banner-info p a:hover{ text-decoration: underline; }
+#banner-info p i{ padding-left: 10px; }
+
+#header-img{ height: 375px; background: url(../img/header-img.png) no-repeat center; }
+
+.banner-g{ background: #f7f7f7; padding:4em 0 2em; }
+.banner-g h3{ width: 70%; margin:0 auto; color: #404040; text-align: center; font-size: 53px; font-family: sans-serif; font-weight: 100; }
+.banner-g .row p{ margin-left: 90px; font-size: 21px; color: #404040; font-weight: 200; }
+.banner-g .row img{ width:100%;max-width: 550px; }
+.banner-g .row .col-md-7{ text-align: center; float: right; }
+.banner-g .row p.pres-p{ margin: 120px 8px 0 90px; }
+
+.banner-g h3{ margin-left: 90px; }
+.banner-g h4{ margin-left: 90px; }
+
+.banner-h{ text-align: center;padding:4em 0 2em; }
+.banner-h h3{ width: 70%; margin:0 auto; color: #404040; text-align: center; font-size: 32px; font-family: sans-serif; font-weight: 200; }
+.banner-h p{ margin:1em 0 4em; color: #696969; font-size: 21px; text-align: center; font-weight: 200; }
+.banner-h h4{ color: #404040; text-align: center; font-size: 30px; font-weight: 200; margin:1em 0; }
+.banner-h .row div{ text-align: center; }
+.banner-h .row .big_t{ font-size: 150px;margin: 0;font-weight: 400;color: #ccc; }
+.banner-h .row .pr_c{ color: #007aff; }
+.banner-h .row .pe_c{ color: #4cd964; }
+.banner-h button{ width: 136px; height: 52px; background: #007aff; color: #fff; text-align: center; line-height: 52px; font-weight: 200; border: none; outline: none; }
+
+.banner-q{padding:4em 0 2em; }
+.banner-q h5{ font-size: 20px; font-weight: 200; height:27px; }
+.banner-q h5 img{ height: 100%; padding-right: 5px; }
+.banner-q p{ color: #686868; font-weight: 100; font-size: 16px; margin-bottom: 40px; }
+
+.run{ margin-top: 50px; }
+.banner-g dl dt{ font-size: 18px; }
+.banner-g dl dd{ font-size: 20px; font-weight: 100; color: #404040; }
+
+.work h4{ font-size: 40px; color: #404040; font-weight: 100; margin:0em 0 1em; }
+.work button{ width: auto; display: inline-block; font-weight: 500; height: auto; padding: 15px 26px;line-height: inherit; margin-top: 20px; vertical-align: middle; }
+.work .row .row{ margin-top: 30px; }
+.work .row .row div{ margin-top: 20px; }
+.work .row .fir img{ height: 56px; }
+.work .row .fir button{ padding: 15px 13px; }
+
+#footer{ text-align: center; border-top:1px solid rgba(132, 140, 154, 0.21); padding: 3em 0 4em; }
+#footer p{ font-weight: 200; }
+#footer a{ font-size: 12px; color: #404040; text-decoration: none; }
+#footer a:hover{ color: #E74C3C; text-decoration: underline; }
+#footer .Timyo{ font-size: 12px; }
+@media (max-width: 768px){
+	#header {padding-top: 2em;}
+	.nav li:last-child a{ padding-left: 20px; }
+	.banner-g .row p{ margin-left: 0px; }
+	.banner-g h3{ margin-left: 0px; }
+	.banner-g h4{ margin-left: 0px; }
+	.banner-g .row p.pres-p{ margin: 0px 8px 40px 0px; }
+}
+@media (min-width: 768px){
+	.banner-g h3{ margin-left: 0px; }
+	.banner-g h4{ margin-left: 0px; }
+	.banner-g .row p.pres-p{ margin: 0px 8px 40px 0px; }
+}
+@media (min-width: 992px){
+	.banner-g h3{ margin-left: 90px; }
+	.banner-g h4{ margin-left: 90px; }
+	.banner-g .row p.pres-p{ margin: 120px 8px 40px 90px; }
+}
+@media (max-width: 992px){
+	.banner-g h3{ font-size: 36px; }
+	.banner-g .row p{ margin-left: 0px; }
+}
+
+/*其余*/
+.b_w{ background: #fff; border-bottom: 1px solid #ccc; }
+.h_g{ background: #f7f7f7; }

@@ -1,0 +1,68 @@
+.clear{ clear: both; }
+.top{ width: 1350px; margin:0 auto; line-height: 33px;}
+.top a{ color: #808080; }
+.top a:first-child{ float: left; }
+.top .kuang{ float: right; position: relative; width: 206px; height: 45px;}
+.top .kuang .shop{ height: 50px; border: 2px solid #fff; border-bottom:none; border-top: none; position: absolute; top: 0; right: 0;}
+.top .kuang .shop p.num{ background: #fff; text-align: center; line-height: 14px; width: 14px; height: 14px; border: 2px solid #9d6f89; border-radius:50%; color: #d1d1d1; position: absolute; top: 30px; right: 39px; }
+.top .kuang:hover .shop{ z-index: 10; background: #fff;  height: 50px; border: 2px solid #eeeeee; border-bottom:none; border-top: none;}
+.top .kuang .shop .daizi{ margin:0 22px 0 9px; width: 52px; float: right; text-align: center;}
+.top .kuang:hover .shop .daizi{ background: url(../images/ba_g.png); height: 78px; }
+.top .kuang .shop span{ vertical-align: top; padding: 0 35px 0 30px;}
+.top .kuang .s_p{display: none; width: 495px; min-height: 127px; border: 2px solid #eee; background: #fff; position: absolute; top: 48px; right: 0px; text-align: center;}
+.top .kuang .s_p p{ color: #999; }
+.top .kuang .s_p p:first-child{ font-size: 24px; margin-top: 30px;}
+.top .kuang:hover .s_p{ display: block; }
+.top p.res{ float: right; color: #808080; margin-right: 100px;}
+
+.header h1{ text-align: center; margin-top: 110px;}
+.header ul{ text-align: center; margin-top: 45px; }
+.header li{ display: inline-block; }
+.header li a{font-size: 20px; color: #333; margin: 0 70px; }
+
+
+/*注册页1*/
+#zhuce,#zhuce2,#denglu {width: 100%; height: 100%; position: fixed; background: rgba(0,0,0,0.5); top: 0;left: 0; }
+#zhuce:target{ z-index: 5;}
+#denglu:target{ z-index: 5;}
+#zhuce2:target{ z-index: 5;}
+.zc_box{ width: 600px; height: 765px; position: fixed; top: 10%;left: 50%; margin-left: -300px;}
+.zc_box .q_box{ width: 600px; height: 700px; background: #fff; text-align: center;}
+.zc_box .q_box p{ color: #868686; }
+.zc_box .q_box p.zc_zs{ font-size: 30px; padding-top: 120px; }
+.zc_box .q_box p.zc_zj{padding: 55px 0 20px 0; }
+.zc_box .q_box p.zc_xm{width: 520px; text-align: left; margin:0px auto ;}
+.zc_box .q_box input[type=text],input[type=password]{ width: 520px; height: 40px; margin-bottom: 30px;}
+.zc_box .q_box button{ width: 520px; height: 40px; margin-bottom: 30px; border: none;outline: none;}
+.zc_box .q_box button[name=new_id]{ background-color: #c4a9b8; color: #fff; }
+.zc_box .q_box button[name=weibo_id]{ background:url(../images/weibo_b.png)no-repeat 10px 2px,#f1ead8; color: #868686;}
+.zc_box .q_box button[name=qq_id]{background:url(../images/qq.png)no-repeat 10px 2px,#fff; border: 2px solid #e4e4e4; color: #868686;}
+.zc_box button[name=yi_y]{margin-top: 10px; width: 600px; height: 55px; border: none; outline: none; color: #fff;text-decoration:underline; background: #000; }
+a#gb_z{ display: block; width: 100%; height: 100%; position: fixed; top: 0;left: 0; }
+#guanbi{background: #fff; position: relative; top: 0px; left: 0px; }
+#guanbi:garget{z-index: 5;}
+
+
+/*注册页2*/
+#zhuce2 .zc_box2{text-align: center; width: 600px; height: 585px; background: #fff; position: fixed; top: 10%;left: 50%; margin-left: -300px;}
+#zhuce2 p.jijiang{text-align: center; font-size:30px; color: #a3a3a3; padding: 40px 0 95px 0; }
+#zhuce2 p{color: #868686; width: 520px; text-align: left; margin:0 auto; }
+#zhuce2 form input{ width: 520px; height: 40px; margin-bottom: 30px;}
+#zhuce2 form input[type=submit]{background: #c4a9b8; color: #fff; outline: none; border: none;width: 524px;}
+
+/*登录页面*/
+#denglu .zc_box span{ color: #868686; padding: 40px 0 60px 0; display: inline-block;}
+#denglu .zc_box img{ padding-bottom: 50px; }
+#denglu .zc_box #den{ margin-bottom: 20px; }
+
+
+
+
+
+
+
+
+
+
+
+

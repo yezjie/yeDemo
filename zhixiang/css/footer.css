@@ -1,0 +1,23 @@
+.footer{background: #535353; overflow: hidden; }
+.footer .container{ width: 1104px;margin: 60px auto 0; overflow: hidden; border-bottom: 1px solid #999;}
+.footer .container ul{ float: left;width: 16%; padding-left: 1%;}
+.footer .container ul.last_ul{ float: right; margin: 0; width: 145px;}
+.footer .container ul.last_ul img{ width: 133px;}
+.footer .container ul.last_ul li{ color: #fff; margin-bottom: 13px; }
+.footer .container ul.last_ul li a{ background: #00bd70; padding: 2px 5px; font-size: 12px; border-radius: 3px; }
+.footer .container ul.last_ul li a:hover{ color: #fff; background: #00693e; }
+.footer .container ul.last_ul li:first-child{ font-size: 16px; font-weight: 700; }
+.footer .container ul li a{ color: #fff; }
+.footer .container ul li a:hover{ color: #00bd70; }
+.footer .footer_bom{ width: 1140px; margin: 0 auto; overflow: hidden; }
+.footer .footer_bom a{ margin: 2%; color: #00bd70; float: right;border: 1px solid #00bd70; border-radius: 4px; padding:4px 23px 4px 9px;background: url('../images/jt_x.png') no-repeat 60px; }
+.footer .footer_bom p{ float: left; color: #fff; margin: 2%; }
+
+
+
+
+
+
+
+
+

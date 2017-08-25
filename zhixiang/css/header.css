@@ -1,0 +1,46 @@
+.clear{ clear: both; }
+#header{ height: 75px; background: #535353; position: relative; top:0;z-index: 100; width: 100%;}
+#header .container{ width: 1140px; height: 75px; margin: 0 auto; position: relative;}
+#header .container>img{ width: 40px; height: 40px; position: absolute; right:15px; top:0px; display: none; }
+#header .container .logo{ float: left; margin-left: 50px; }
+#header .container ul.nav{margin-right: 50px; overflow: hidden; height: 75px; float: right; line-height: 74px; }
+#header .container ul li{ float: left; margin:0 15px;}
+#header .container #search{border-radius: 5px;transition: all 0.5s; position: absolute; right: 0; width: 30px; height: 30px; top: 20px; overflow: hidden; }
+#header .container #search img{transition: all 0.5s; background: #535353; width: 30px; cursor: pointer; right:0; position: absolute;}
+#header .container #search input{transition: all 0.5s; color: #fff; background: #535353; width: 80px;height: 30px; outline: none; border: none; text-align: center;position: absolute;left:0; }
+#header .container #search.active{ background: #fff;  width: 110px; }
+#header .container #search.active img{ background: #fff; }
+#header .container #search.active input{ background: #fff; color: #333;}
+#header .container ul li a{ color: #fff; font-size: 14px; }
+#header .container ul li a:hover{ color: #00bd70;}
+
+#header .container ul.nav_h{ overflow: hidden; z-index:1;position: absolute;top:50px; transition:all 0.5s; display: none; height: 0px; width: 100%; background: #535353; border-top: 1px solid #333; line-height: 55px; }
+#header .container ul.nav_h li{ float: none; }
+
+
+/*登录注册*/
+#d_box{display: none; position: fixed; z-index: 200; width: 100%;height: 100%; background: rgba(0,0,0,0.5); }
+#d_box #log,#d_box #res{ width: 400px; height: 360px; position: absolute; left: 50%;margin-left: -200px; top:35%; background: #f9f9f9; }
+#d_box #log #log_tuo,
+#d_box #res #res_tuo{ cursor: move; padding: 16px; height: 20px; background: #535353; color: #fff; }
+#d_box #log #log_close,
+#d_box #res #res_close{cursor: pointer; display: inline-block; width: 16px; height: 16px; background: url(../images/r_close.png); float: right; }
+#d_box #log form{ padding: 0 25px; }
+#d_box #log input[type=text]{font-size: 14px;margin-top: 30px; outline: none; padding-left: 45px; color: #ccc; width: 305px; height: 40px; border:1px solid #efefef;background: url(../images/user.png) no-repeat 10px; background-size:7%;}
+#d_box #log input[type=password]{font-size: 14px;margin: 20px 0 30px; outline: none; width: 305px; color: #ccc; padding-left: 45px; height: 40px; border: 1px solid #efefef;background: url(../images/pass.png) no-repeat 10px; background-size:7%;}
+#d_box #log input[type=submit],
+#d_box #res input[type=submit]{cursor:pointer; width: 100%; height: 40px; color: #fff; text-align: center; background: #00bd70; outline: none;border:none; border-radius: 5px;margin-top: 30px; }
+#d_box #log a{ color: #00bd70; float: right; }
+#d_box #res{ height: auto; top:20%; display: none; }
+#d_box #res form{ padding:0 18px; }
+#d_box #res input[type=text]{font-size: 14px; margin-top: 20px; padding-left: 10px; outline: none; width: 270px; height: 40px; border: 1px solid #efefef; color: #ccc; }
+#d_box #res input[type=password]{font-size: 14px;margin-top: 20px; width: 270px; outline: none; padding-left: 10px; height: 40px; border: 1px solid #efefef; color: #ccc;}
+#d_box #res form input:nth-child(11){ margin-bottom: 25px; }
+#d_box #res label{ width: 75px; display: inline-block; text-align: right; }
+#d_box #res input[type=submit]{ margin: 20px 0 30px; }
+#d_box #res a{ color: #00bd70; }
+#d_box #res form a:nth-last-child(2){ float: right; }
+
+
+
+
